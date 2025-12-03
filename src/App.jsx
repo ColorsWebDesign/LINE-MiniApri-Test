@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
 import "./App.css";
-import { Page1 } from './components/page1';
-import { Page2 } from './components/page2';
-import { Page3 } from './components/page3';
+import { Page1 } from './components/Page1';
+import { Page2 } from './components/Page2';
+import { Page3 } from './components/Page3';
 
 function App() {
   const [name, setName] = useState("");
