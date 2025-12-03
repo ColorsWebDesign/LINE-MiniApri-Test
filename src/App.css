@@ -29,3 +29,18 @@
 .small {
   font-size: 0.75rem;
 }
+
+img{vertical-align:top; width:100%;}
+
+p.name span{font-size:38px; font-weight: bold;}
+div.clm01{width:100%; margin:0 auto; padding:0;}
+
+div.clm02{width: 100%; margin:0 auto; flex-wrap: wrap; display: -webkit-flex; display: flex; -webkit-justify-content: space-between; justify-content: space-between;}
+div.clm02 div{width:calc(50%);border:1px solid #707070; box-sizing: border-box; background-color:#70DEF5; padding-top:70%; height:0;}
+div.clm02 div p{ font-size:20px; text-align:center; color:#fff; left:50%; top:50%; transform: translate(-50%, -50%)}
+div.clm02 div img{vertical-align:top;}
+
+div.clm03{width: 100%; margin:0 auto; padding:0; flex-wrap: wrap; display: -webkit-flex; display: flex; -webkit-justify-content: space-between; justify-content: space-between;}
+div.clm03 div{width:calc(100% / 3);}
+
+div.nav{position:fixed; margin:0 auto; padding:0; bottom:0; width:100%;}
