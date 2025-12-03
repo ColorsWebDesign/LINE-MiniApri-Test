@@ -34,9 +34,9 @@ function App() {
       <div class="nav">
         <div class="clm01"><img src="https://colors.cc/line_test/intro001.jpg" alt="お知らせ" /></div>
         <div class="clm03">
-          <div><Link to="/page1"><img src="https://colors.cc/line_test/nav001.jpg" alt="お知らせ" /></Link></div>
-          <div><Link to="/page2"><img src="https://colors.cc/line_test/nav002.jpg" alt="プロフィール" /></Link></div>
-          <div><Link to="/page3"><img src="https://colors.cc/line_test/nav003.jpg" alt="同窓会" /></Link></div>
+          <div><img src="https://colors.cc/line_test/nav001.jpg" alt="お知らせ" /></div>
+          <div><img src="https://colors.cc/line_test/nav002.jpg" alt="プロフィール" /></div>
+          <div><img src="https://colors.cc/line_test/nav003.jpg" alt="同窓会" /></div>
           <div><img src="https://colors.cc/line_test/nav004.jpg" alt="コミュニティ" /></div>
           <div><img src="https://colors.cc/line_test/nav005.jpg" alt="お問い合わせ" /></div>
           <div><img src="https://colors.cc/line_test/nav006.jpg" alt="設定" /></div>
