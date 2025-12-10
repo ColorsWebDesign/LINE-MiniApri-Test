@@ -29,7 +29,7 @@ function App() {
       <div class="left">登録年月日 2025/10/10</div>
       </div>
       {name && <p class="name">こんにちは、<br /><span>{name}</span>さん</p>}
-      <p>同窓会ミニアプリテスト版です。</p>
+      <p>同窓会ミニアプリテスト版です</p>
 
  <BrowserRouter>
       <div class="nav">
