@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
 import "./App.css";
-import { Router, Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 
 function App() {
   const [name, setName] = useState("");
@@ -29,7 +29,6 @@ function App() {
       {name && <p class="name">こんにちは、<br /><span>{name}</span>さん</p>}
       <p>同窓会ミニアプリテスト版です</p>
 
-<Router>
       <button onClick={() => navigate("/profile")}>プロフィールへ</button>
       <button onClick={() => navigate("/group")}>グループへ</button>
       <div class="nav">
@@ -49,7 +48,6 @@ function App() {
     </Routes>
         </div>
       </div>
-</Router>
     </div>
   );
 }
