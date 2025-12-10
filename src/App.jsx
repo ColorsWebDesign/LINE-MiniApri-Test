@@ -2,9 +2,7 @@ import { useEffect, useState } from "react";
 import liff from "@line/liff";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Page1 from "./components/page1.jsx";
-import Page2 from "./components/page2.jsx";
-import Page3 from "./components/page3.jsx";
+
 
 function App() {
   const [name, setName] = useState("");
