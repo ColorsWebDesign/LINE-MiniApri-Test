@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
+import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { Page1 } from './components/Page1';
 import { Page2 } from './components/Page2';
