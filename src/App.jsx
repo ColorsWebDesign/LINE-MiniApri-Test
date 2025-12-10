@@ -28,9 +28,6 @@ function App() {
       {name && <p class="name">こんにちは、<br /><span>{name}</span>さん</p>}
       <p>同窓会ミニアプリテスト版です</p>
 
-
-    </div>
-
       <div class="nav">
         <div class="clm01"><img src="https://colors.cc/line_test/intro001.jpg" alt="お知らせ" /></div>
         <div class="clm03">
