@@ -3,7 +3,6 @@ import liff from "@line/liff";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-
 function App() {
   const [name, setName] = useState("");
 
@@ -32,7 +31,6 @@ function App() {
 
     </div>
 
-  <BrowserRouter>
       <div class="nav">
         <div class="clm01"><img src="https://colors.cc/line_test/intro001.jpg" alt="お知らせ" /></div>
         <div class="clm03">
@@ -45,7 +43,7 @@ function App() {
 
         </div>
       </div>
-</BrowserRouter>
+
   );
 }
 
