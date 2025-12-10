@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   const [name, setName] = useState("");
@@ -27,7 +26,7 @@ function App() {
       </div>
       {name && <p class="name">こんにちは、<br /><span>{name}</span>さん</p>}
       <p>同窓会ミニアプリテスト版です</p>
-
+<Router>
       <div class="nav">
         <div class="clm01"><img src="https://colors.cc/line_test/intro001.jpg" alt="お知らせ" /></div>
         <div class="clm03">
@@ -38,9 +37,15 @@ function App() {
           <div><img src="https://colors.cc/line_test/nav005.jpg" alt="お問い合わせ" /></div>
           <div><img src="https://colors.cc/line_test/nav006.jpg" alt="設定" /></div>
 
+          <Routes>
+          <Route path="/page1" element={<Page1 />} />
+          <Route path="/page2" element={<Page2 />} />
+          <Route path="/page3" element={<Page3 />} />
+        </Routes>
         </div>
       </div>
-
+</Router>
+    </div>
   );
 }
 
