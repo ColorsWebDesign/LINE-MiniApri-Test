@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { AppRoutes } from './Routes.jsx' // Routes.jsxを参照
 import "./App.css";
-import { Page1 } from './components/Page1';
-import { Page2 } from './components/Page2';
-import { Page3 } from './components/Page3';
 
 function App() {
   const [name, setName] = useState("");
@@ -42,14 +40,6 @@ function App() {
           <div><img src="https://colors.cc/line_test/nav005.jpg" alt="お問い合わせ" /></div>
           <div><img src="https://colors.cc/line_test/nav006.jpg" alt="設定" /></div>
 
-　　　<Router>
-        　{/* ルーティングの設定 */}
-        　<Routes>
-          　<Route path="/page1" element={<Page1 />} />
-          　<Route path="/page2" element={<Page2 />} />
-          　<Route path="/page3" element={<Page3 />} />
-        　</Routes>
-    　</Router>
         </div>
       </div>
 </BrowserRouter>
