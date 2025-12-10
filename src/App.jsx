@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
-import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import "./App.css";
 import { Page1 } from './components/Page1';
 import { Page2 } from './components/Page2';
@@ -35,28 +35,21 @@ function App() {
       <div class="nav">
         <div class="clm01"><img src="https://colors.cc/line_test/intro001.jpg" alt="お知らせ" /></div>
         <div class="clm03">
-          <div><Link to="/page1"><img src="https://colors.cc/line_test/nav001.jpg" alt="お知らせ" /></Link></div>
-          <div><Link to="/page2"><img src="https://colors.cc/line_test/nav002.jpg" alt="プロフィール" /></Link></div>
-          <div><Link to="/page3"><img src="https://colors.cc/line_test/nav003.jpg" alt="同窓会" /></Link></div>
+          <div><Link to="/page1">Page1</Link></div>
+          <div><Link to="/page2">Page1</Link></div>
+          <div><Link to="/page3">Page1</Link></div>
           <div><img src="https://colors.cc/line_test/nav004.jpg" alt="コミュニティ" /></div>
           <div><img src="https://colors.cc/line_test/nav005.jpg" alt="お問い合わせ" /></div>
           <div><img src="https://colors.cc/line_test/nav006.jpg" alt="設定" /></div>
 
-        <Switch>
-          {/* exactをつけると完全一致になります。Homeはexactをつけてあげます */}
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/page1">
-            <Page1 />
-          </Route>
-          <Route path="/page2">
-            <Page2 />
-          </Route>
-          <Route path="/page3">
-            <Page3 />
-          </Route>
-        </Switch>
+　　　<Router>
+        　{/* ルーティングの設定 */}
+        　<Routes>
+          　<Route path="/page1" element={<Page1 />} />
+          　<Route path="/page2" element={<Page2 />} />
+          　<Route path="/page3" element={<Page3 />} />
+        　</Routes>
+    　</Router>
         </div>
       </div>
 </BrowserRouter>

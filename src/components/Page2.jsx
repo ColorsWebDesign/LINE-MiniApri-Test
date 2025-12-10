@@ -1,7 +1,9 @@
-export const page2 = () => {
-  return (
-    <div>
-      <h1>Page2</h1>
-    </div>
-  );
-};
+const Page2 = () => {
+    return (
+        <>
+            <h1>page2</h1>
+        </>
+    )
+}
+
+export default Page2
