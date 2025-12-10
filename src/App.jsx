@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Page1 from "./components/page1.jsx"; // pageA.jsxの読み込み
-import Page2 from "./components/page2.jsx"; // pageB.jsxの読み込み
-import Page3 from "./components/page3.jsx"; // pageB.jsxの読み込み
 import "./App.css";
 
 function App() {
