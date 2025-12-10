@@ -41,11 +41,7 @@ function App() {
           <div><img src="https://colors.cc/line_test/nav005.jpg" alt="お問い合わせ" /></div>
           <div><img src="https://colors.cc/line_test/nav006.jpg" alt="設定" /></div>
 
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/profile" element={<Profile />} />
-      <Route path="/group" element={<Group />} />
-    </Routes>
+
         </div>
       </div>
     </div>

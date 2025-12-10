@@ -6,10 +6,10 @@ import Page3 from "./components/page3.jsx"; // pageB.jsxの読み込み
 
 export const AppRoutes = () => {
    return (
-       <Routes>
-           <Route path="/page1" element={<Page1 />} />
-           <Route path="/page2" element={<Page2 />} />
-           <Route path="/page3" element={<Page3 />} />
-       </Routes>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/group" element={<Group />} />
+    </Routes>
    )
 }
