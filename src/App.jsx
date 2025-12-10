@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import liff from "@line/liff";
 import "./App.css";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Router, Routes, Route, useNavigate } from "react-router-dom";
 
 function App() {
   const [name, setName] = useState("");
